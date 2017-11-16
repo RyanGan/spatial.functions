@@ -21,8 +21,6 @@ crs <- st_crs(california_sf)$proj4string
 
 
 
-cali_bbox
-
 x <- c(cali_bbox[1], cali_bbox[1], cali_bbox[3], cali_bbox[3], cali_bbox[1])
 y <- c(cali_bbox[2], cali_bbox[4], cali_bbox[4], cali_bbox[2], cali_bbox[2])
 coords <- matrix(cbind(x, y), ncol=2)
